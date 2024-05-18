@@ -1,5 +1,7 @@
+dist/
 node_modules/
 npm-debug.*
 coverage/
 test/fixtures/(*
 test/tmp/
+_tests/

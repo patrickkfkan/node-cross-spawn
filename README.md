@@ -1,3 +1,21 @@
+# About this fork
+
+(Forked from https://github.com/moxystudio/node-cross-spawn)
+
+- Fix issue where cmd-shim is not identified if placed outside `node_modules/.bin/` (such as with globally installed modules)
+- Migrate to TypeScript
+- Package as ESM + CJS hybrid module
+- Update dependency versions
+- Fix (some) tests
+- Requires Node >= 16
+
+<br />
+To install this fork:
+
+```
+$ npm i @patrickkfkan/cross-spawn
+```
+ 
 # cross-spawn
 
 [![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Build status][appveyor-image]][appveyor-url] [![Coverage Status][codecov-image]][codecov-url] [![Dependency status][david-dm-image]][david-dm-url] [![Dev Dependency status][david-dm-dev-image]][david-dm-dev-url]
